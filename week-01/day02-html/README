@@ -1,0 +1,38 @@
+# HTML Image Gallery
+
+A simple image gallery built using HTML and CSS as part of my web development learning journey.  
+This project demonstrates basic page structure, image rendering, flexbox layout, and responsive styling.
+
+## Features
+
+- Clean and simple HTML structure
+- Flexbox-based gallery layout
+- Clickable images that open in a new tab
+- Responsive image scaling
+- Easy-to-read CSS styling
+
+## What I Learned
+
+- How to structure an HTML page
+- How to link external CSS files
+- How to use flexbox (`display: flex`, `flex-wrap`, `justify-content`)
+- How to work with relative file paths
+- How to build a simple, reusable gallery component
+
+## Preview
+
+Open `helloworld.html` in your browser to view the gallery.
+
+## How to Run
+
+1. Clone or download the project
+2. Open the folder in VS Code
+3. Open `helloworld.html` in your browser
+4. Enjoy the gallery
+
+## Future Improvements
+
+- Add hover animations
+- Add a lightbox effect
+- Make the gallery fully responsive
+- Add thumbnails vs full-size images
