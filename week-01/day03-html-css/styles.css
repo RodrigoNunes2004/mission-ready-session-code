@@ -1,7 +1,66 @@
+/* Apply flex-box to align and justfy contents in the center & 
+div tag for using classes to better styling */
 h1 {
   font-size: 90px;
+  color: #e90ee9;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 p {
   border: solid 2px #e90ee9;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #e90ee9;
+}
+
+.container {
+  border: solid 2px #e90ee9;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  padding: 20px;
+}
+
+h3 {
+  color: #e90ee9;
+  font-size: 30px;
+}
+a {
+  color: #e90ee9;
+  font-size: 20px;
+}
+
+#title {
+  color: #f50d81;
+}
+.food-list {
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  color: #e90ee9;
+}
+
+food-list li {
+  padding: 10px;
+}
+
+.menu {
+  border: solid 2px #e90ee9;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.dessert {
+  color: #600b60;
+}
+.dinner {
+  color: #e90e4c;
 }

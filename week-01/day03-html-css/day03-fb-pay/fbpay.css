@@ -1,0 +1,94 @@
+body {
+  font-family: "Tahoma", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* ====== Header Section ===== */
+nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 100px;
+}
+
+.btn {
+  background-color: #d8e4ef;
+  text-align: center;
+  font-size: 16px;
+}
+
+.nav-link {
+  list-style: none;
+  margin: 2px 5px;
+  padding: 8px 15px;
+}
+
+.nav-link:hover {
+  background-color: #396ee1;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-link:hover a {
+  color: inherit;
+}
+
+/* ======= Main Section ====== */
+main {
+  display: flex;
+  /* background-color: lightblue;  */
+  align-items: center;
+  margin: 150px 100px;
+}
+
+/* ====== Left Section ====== */
+#left {
+  /* background-color: lightgreen; */
+  margin: 30px 100px;
+  width: 45%;
+}
+
+#left h1 {
+  font-size: 40px;
+}
+
+#left p {
+  margin: 35px 0px;
+}
+
+#left h1 span {
+  color: #396ee1;
+}
+
+.chat-btn {
+  display: block;
+  margin: 20px 0px;
+  padding: 14px 25px;
+  width: 200px;
+  font-family: inherit;
+  font-weight: 700;
+  border: none;
+}
+
+.chat-btn:hover {
+  background-color: #396ee1;
+  color: white;
+  cursor: pointer;
+}
+
+/* ====== Right Section ====== */
+#right {
+  /* background-color: pink; */
+  width: 55%;
+  text-align: right;
+
+  /* Adding in the phone image using css */
+  background-image: url("https://flipweb.org/wp-content/uploads/2019/11/Facebook-Pay.png");
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}

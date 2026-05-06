@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Tahoma", sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+input {
+  width: 40%;
+}
+
+label {
+  font-family: "Tahoma", sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 2px 2px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px #740ee9 solid;
+}
+
+input[type="radio"] {
+  width: 30px;
+}
+
+input[type="radio"] + label {
+  color: #740ee9;
+}
+
+textarea {
+  border: 2px #740ee9 solid;
+}
+
+input[type="submit"] {
+  background-color: #740ee9;
+  color: white;
+  width: 20%;
+}
+
+/*======= CSS TRANSITIONS AND ANIMATIONS ======*/
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: #b2e90e;
+  animation-name: color-change;
+  animation-duration: 5s;
+  position: relative;
+}
+
+div:hover {
+  width: 200px;
+  height: 200px;
+}
+
+/*=========== Animation=========== */
+@keyframes color-change {
+  0% {
+    background-color: rgb(237, 145, 145);
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: rgb(237, 145, 211);
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: rgb(80, 230, 195);
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: rgb(246, 244, 178);
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: rgb(178, 218, 246);
+    left: 0px;
+    top: 0px;
+  }
+}
